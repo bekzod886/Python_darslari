@@ -47,8 +47,14 @@ while True:
     """fatherName = input("ism: ")
     jinsi = input("ism: ")"""
     jinsi = jinsi.split()
-    if len(jinsi) == 1:
+    asd = str.join(jinsi)
+    jins = "Erkak"
+    jins1 = "erkak"
+    jin2 = "Ayol"
+    jins3 = "Erkak"
+    if asd == jins or asd==jins1 or asd == jin2 or asd == jins3 and len(FatherName) == 1:
         break
+
     elif len(jinsi) > 1:
         print("Jinsini kiriting")
     else:
