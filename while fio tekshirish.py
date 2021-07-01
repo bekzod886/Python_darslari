@@ -57,6 +57,6 @@ str = " "
 jins = (str.join(jinsi))
 
 if jins == "erkak" or jins == "Erkak":
-    print(kattaOta+"ov",ism,ota,'ogli')
+    print(kattaOta+"ov",ism,ota+"ovich")
 else:
-    print(kattaOta+"ova",ism,ota,'qizi')
+    print(kattaOta+"ova",ism,ota+"ovna")
